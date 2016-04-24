@@ -24,7 +24,7 @@ describe('components', () => {
       expect(output.props.children.length).toBe(2)
       const [div, ul] = output.props.children
       expect(div.type).toBe('div')
-      expect(div.props.children).toBe('No posts!')
+      expect(div.props.children).toBe('Noo posts!')
       expect(ul.props.children).toEqual([])
     })
 
