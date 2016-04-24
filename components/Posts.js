@@ -6,7 +6,7 @@ export default class Posts extends Component {
     let noPostsMessage
     if (this.props.posts.length == 0) {
       noPostsMessage = (
-        <div>No posts!</div>
+        <div>Noo posts!</div>
       )
     }
 
