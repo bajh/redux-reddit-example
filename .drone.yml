@@ -1,0 +1,8 @@
+build:
+  tests:
+    image: node
+    commands:
+      - npm install
+      - npm test
+    when:
+      event: pull_request
